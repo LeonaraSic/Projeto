@@ -1,0 +1,201 @@
+*
+{
+	margin: 0; padding: 0; box-sizing: border-box; ; font-family: arial;
+}
+
+/* Container */
+
+main
+{
+	display: flex; height: 100vh;
+}
+
+/*Fim do Contener*/
+
+/*largura da fonte dos títulos*/
+h1, h2, h3, h4, h5 
+{
+	font-weight: 100; 
+}
+
+/* Fim da largura da fonte dos títulos */
+
+/* Parte do conteudo que fica no left */
+
+.MenuIndex
+{ 
+	width: 25%; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	background-color: #12a869;
+	/* 
+		#6AA585 
+		#02012E 
+		#241604 
+		#072028
+	*/
+}
+
+/* Fim da parte do conteudo que fica no left */
+
+/* Títulos que ocupam o left */
+
+.MenuIndex h1, h2 
+{
+	color: rgba(252,252,252,1); font-family: "Georgia", serif; 
+}
+
+.MenuIndex h1
+{
+	font-size: 40px; margin-top: 30px ;
+}
+
+.MenuIndex h2 
+{
+	font-size: 19px; text-align: center;
+}
+
+/* Fim dos títulos que ocupam o left */
+
+/* Area de navegação do menu */
+
+.MenuIndex ol li
+{
+	margin: 15px 0; font-family: "Gill Sans", sans-serif; list-style-type: none;
+}
+
+.MenuIndex nav li a
+{
+	color: #FAFAFA; font-weight: 600; /* padding: 5px; */ transition: all 0.2s;  text-decoration: none;
+}
+.MenuIndex nav a:hover
+{
+	/* background:rgba(149,182,178,1) */
+	/* color:rgba(149,202,178,1); */ 
+	font-size: 15px;
+}
+
+/* Fim da area de navegação do menu */
+
+.ConteudoIndex
+{
+	width: 80%; overflow-y: scroll; text-align: center;
+}
+
+/* Imagem de fundo */
+
+.ImgIndex
+{
+	height: 100vh; 
+	background-image: url('../img/floriano.5.png'); 
+	background-repeat: no-repeat; 
+	background-size: contain;
+}
+
+/* Fim da imagem de fundo */
+
+/* Formatação do titulo que fica em baixo da imagem */
+
+.ConteudoIndex h3
+{
+	font-size: 55px; color: rgba(0,0,0,.7); margin-top: 50px; /*font-weight: 800*/;
+}
+
+/* Fim da formatação do titulo que fica em baixo da imagem */
+
+/* Conteudo que fica dividido em duas partes */
+
+.IndexExplicacao
+{
+	margin-top:50px ; display: flex; font-size: 19px; color: rgba(0,0,0,.7);
+}
+
+.IndexExplicacao h4, .IndexExplicacao h5
+{
+	font-size: 25px; font-weight: 600; margin-bottom: 20px; 
+}
+.IndexObjetivo
+{
+	text-align: justify; margin: 0 20px 30px 15px;
+}
+
+/* Fim do conteudo que fica dividido em duas partes */
+
+.Semam
+{
+	
+}
+
+/* Entrevistas com a Semam */
+
+.Entrevistas p, .Semam p
+{
+	text-indent: 50px; margin: 20px 0;
+}
+
+/* Entrevistas com a Semam */
+
+/* Pagina das vantagens da arborização */
+
+.VantagensConteudo p
+{
+	text-indent: 50px;
+}
+
+.VantagensLista ul li
+{
+	margin: 10px 0;
+}
+
+/* Fim da pagina das vantagens da arborização */
+
+/*Paginas formatação*/
+.Projetos
+{
+	height: 71vh;
+}
+.QuemSomos h1, .VantagensConteudo h1, .Entrevistas h1, .Semam h1, .Projetos h1
+{
+	text-align: center; margin-bottom: 20px; font-size: 30px; color: rgba(0,0,0,.7); font-weight: 600;
+}
+
+.QuemSomos h1, .Semam h1, .Projetos h1
+{
+	margin-top: 50px;
+}
+
+.QuemSomos, .VantagensConteudo, .Entrevistas, .Semam, .Projetos
+{
+	text-align: justify;
+	width: 85%;
+	margin: 10px auto;
+	font-size: 15px;
+	color: rgba(0,0,0,.7)
+}
+.QuemSomos p  
+{
+	text-indent: 50px; margin: 20px 0;
+}
+
+.QuemSomos
+{
+	height: 71vh;
+}
+/*Fim da pagina formatação*/
+
+/*Final do conteudo*/
+footer
+{
+	height: 20vh; 
+	background: rgba(134,181,151,1); 
+	color: rgba(252,252,252,1);
+	font-size: 19px;
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-around;
+}
+
+/*Fim do conteudo*/
